@@ -43,7 +43,7 @@
   .banner{
     width : 1535px;
     height: 655px;
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(/assets/hero-bg.PNG);
     background-size: cover;
     background-position: center;
   }
@@ -353,10 +353,10 @@
 .target-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border : 2px solid black;
     width: 1000px;
     height: 1350px;
-    margin : 108px 0 0 0;
 }
 
 .target-header h1{
@@ -370,4 +370,8 @@
 
 .target-header p{
 
+}
+
+.target-cards{
+    
 }
