@@ -43,7 +43,7 @@
   .banner{
     width : 1535px;
     height: 655px;
-    background-image: url(/assets/hero-bg.PNG);
+    background-image: url(./assets/hero-bg.PNG);
     background-size: cover;
     background-position: center;
   }
