@@ -43,7 +43,7 @@
   .banner{
     width : 1535px;
     height: 655px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url('/assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
   }
@@ -245,7 +245,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width : 1050px;
+    max-width : 1000px;
     max-height: 1300px;
     text-align: center;
 }
@@ -284,6 +284,7 @@
     background: #FF4C1E0D;
     padding : 40px;
     text-align: left;
+    border-radius: 16px;
 }
 
 .card2{
@@ -295,6 +296,7 @@
     margin-left: 24px;
     padding : 40px;
     text-align: left;
+    border-radius: 16px;
 }
 
 .card3{
@@ -306,6 +308,7 @@
     margin-left: 24px;
     padding : 40px;
     text-align: left;
+    border-radius: 16px;
 }
 
 .card1 img, .card2 img, .card3 img{
@@ -336,4 +339,22 @@
     font-size: 12px;
     letter-spacing: 0%;
     font-weight: 900;
+}
+
+.target{
+    width: 1000px;
+    height: 1350px;
+}
+
+.target-header h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+}
+
+.target-header p{
+
 }
