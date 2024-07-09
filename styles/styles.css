@@ -43,7 +43,7 @@
   .banner{
     width : 1535px;
     height: 655px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url(/assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
   }
@@ -340,6 +340,8 @@
     letter-spacing: 0%;
     font-weight: 900;
 }
+
+Target Section Styling
 
 .target{
     width: 1000px;
