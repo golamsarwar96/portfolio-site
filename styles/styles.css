@@ -92,6 +92,12 @@
     margin: 15px 0;
   }
 
+  .contact-me a{
+    color : white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+  }
   /* Summery Styling */
 
 .summery{
@@ -288,11 +294,10 @@
 }
 
 .card2{
-    background: #004CE80D;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    background: #FF4C1E0D;
+    background: #004CE80D;
     margin-left: 24px;
     padding : 40px;
     text-align: left;
@@ -300,11 +305,10 @@
 }
 
 .card3{
-    background: #FFDF000D;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    background: #FF4C1E0D;
+    background: #FFDF000D;
     margin-left: 24px;
     padding : 40px;
     text-align: left;
@@ -429,4 +433,101 @@
     font-size: 12px;
     letter-spacing: 0%;
     font-weight: 900;
+}
+
+/* Support Styling */
+
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-container{
+    background-image: linear-gradient( rgb(7, 2, 17),rgba(7, 2, 17, 0) 70%), url("../assets/handshake.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width : 1000px;
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.support-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin:0 0 10px 0;
+}
+
+
+.support-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin : 0 0 50px 0;
+}
+
+input[type="text"]{
+    width: 450px;
+    height: 50px;
+    padding: 12px 14px 12px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+}
+
+input[type="submit"]{
+    width: 120px;
+    height: 50px;
+    padding: 12px 14px 12px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: Azeret Mono;
+}
+
+.footer{
+    background: #0D132108;
+    margin : 74px 0 0 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    margin : 0;
+}
+
+.footer-container h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin : 8px 0 0 0;
+
+}
+
+.footer-container img{
+    margin-right: 15px;
 }
