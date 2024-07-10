@@ -199,6 +199,7 @@
     border-radius: 0;
     font-weight: 600;
     font-family: "Inter Tight", sans-serif;
+    cursor: pointer;
 }
 
 /* Video Styling  */
@@ -526,6 +527,7 @@ input[type="submit"]{
     background: rgb(255, 255, 255);
     margin-left: 10px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .footer{
@@ -554,4 +556,5 @@ input[type="submit"]{
 
 .footer-container img{
     margin-right: 15px;
+    cursor: pointer;
 }
