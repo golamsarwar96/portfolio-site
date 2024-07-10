@@ -344,22 +344,24 @@
 /* Target Section Styling */
 
 .target{
-    border: 2px solid black;
+    margin : 74px 0 0 0;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .target-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border : 2px solid black;
-    width: 1000px;
-    height: 1350px;
+    margin : 80px 97px;
+    max-width : 1050px;
+    max-height: 1300px;
+    border-radius: 16px;
 }
 
-.target-header h1{
+.target-header{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 28px;
@@ -368,10 +370,63 @@
     text-align: center;
 }
 
-.target-header p{
-
+.target-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin : 0 60px 30px 60px;
+    width : 800px
 }
 
-.target-cards{
-    
+
+.target-card1, .target-card2, .target-card3{
+    display: flex;
+    flex-direction: row;
+    gap : 34px;
+    margin : 30px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding : 30px 30px 40px 20px;
+}
+
+.target-card1 img, .target-card2 img, .target-card3 img{
+    width : 80px;
+    height: 80px;
+    margin : 50px 0 0 10px;
+}
+
+.target-card1 h4, .target-card2 h4, .target-card3 h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin : 20px 0 20px 0;
+}
+
+.target-card1 p, .target-card2 p, .target-card3 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin : 20px 0 30px 0;
+}
+
+.target-cards a{
+    height: 140px;
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    letter-spacing: 0%;
+    font-weight: 900;
 }
