@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-.azeret-mono-font {
-    font-family: "Azeret Mono", monospace;
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-tight-font {
+    font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -16,7 +17,7 @@
 
   nav h2{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 28px;
     font-weight: 800;
     text-align: left;
@@ -31,7 +32,7 @@
     opacity: 0.8;
     border-radius: 8px;
     padding: 14px 26px 14px 26px;
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 16px;
     font-weight: 900px;
     text-align: center;
@@ -59,21 +60,23 @@
 
 
   .banner-header{
-    width : 1000px;
+    width : 900px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 40px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 45px;
     font-weight: 800;
+    letter-spacing: 3px;
     line-height: 68px;
     margin : 8px 0 10px 0;
   }
 
   .banner-description{
-    width : 1000px;
+    width : 900px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    letter-spacing: 1px;
     line-height: 24px;
     text-align: center;
     opacity: 0.7;
@@ -86,9 +89,10 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color : white;
-    font-family: Azeret Mono;
-    font-weight: 800;
-    font-size: 16px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
     margin: 15px 0;
   }
 
@@ -126,19 +130,21 @@
 
 .summery-header{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family:"Inter Tight", sans-serif;
     font-size: 28px;
     font-weight: 800;
     line-height: 25px;
+    letter-spacing: 1px;
     text-align: center;
     padding-top : 20px;
 }
 
 .summery-description{
+    width : 850px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 13px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 26px;
     text-align: center;
     opacity: 0.7;
@@ -161,21 +167,23 @@
 .slider1 h4, .slider2 h4, .slider3 h4{
     width : 450px;
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 26px;
     font-weight: 700;
+    letter-spacing: 1px;
     line-height: 36px;
     text-align: left;
-    margin : 10px 0 0 0;
+    margin : 6px 0 0 0;
 }
 
 .slider1 p, .slider2 p, .slider3 p{
     width : 450px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 20px;
+    letter-spacing: 1px;
     text-align: left;
     opacity: 0.7;
     margin : 20px 0 35px 0;
@@ -190,7 +198,7 @@
 #learn-more{
     border-radius: 0;
     font-weight: 600;
-
+    font-family: "Inter Tight", sans-serif;
 }
 
 /* Video Styling  */
@@ -212,7 +220,7 @@
 
 .inspiration h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 32px;
     font-weight: 800;
     line-height: 25px;
@@ -223,10 +231,11 @@
 .inspiration p{
     width : 800px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 25px;
+    letter-spacing: 1px;
     text-align: center;
     opacity : 0.7;
     margin : 0 0 30px 0;
@@ -258,7 +267,7 @@
 
 .card-header h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 28px;
     font-weight: 800;
     line-height: 25px;
@@ -267,11 +276,10 @@
 
 .card-header p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     margin-bottom: 50px;
@@ -322,7 +330,7 @@
 
 .card1 h1, .card2 h1, .card3 h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 24px;
     font-weight: 800;
     margin: 30px 0 0 0;
@@ -330,19 +338,19 @@
 
 .card1 p, .card2 p, .card3 p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     margin : 20px 0 30px 0;
 }
 
 .card-section a{
     text-decoration: underline;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 12px;
     letter-spacing: 0%;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 /* Target Section Styling */
@@ -367,7 +375,7 @@
 
 .target-header{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 28px;
     font-weight: 800;
     line-height: 25px;
@@ -376,9 +384,9 @@
 
 .target-description{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 13px;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 26px;
     text-align: center;
     opacity: 0.7;
@@ -405,7 +413,7 @@
 
 .target-card1 h4, .target-card2 h4, .target-card3 h4{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -416,9 +424,9 @@
 
 .target-card1 p, .target-card2 p, .target-card3 p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
@@ -429,7 +437,7 @@
     height: 140px;
     text-decoration: underline;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 12px;
     letter-spacing: 0%;
     font-weight: 900;
@@ -459,7 +467,7 @@
 
 .support-container h1{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -471,11 +479,11 @@
 
 .support-container p{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 13px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
+    letter-spacing: 1px;
     text-align: center;
     margin : 0 0 50px 0;
 }
@@ -483,17 +491,19 @@
 input[type="text"]{
     width: 450px;
     height: 50px;
-    padding: 12px 14px 12px 14px;
+    font-family: "Inter Tight", sans-serif;
+    padding: 12px 14px 12px 20px;
     box-sizing: border-box;
+    letter-spacing: 1px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    font-family: Azeret Mono;
 }
 
 input[type="submit"]{
     width: 120px;
     height: 50px;
+    font-family: "Inter Tight", sans-serif;
     padding: 12px 14px 12px 14px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -501,7 +511,6 @@ input[type="submit"]{
     background: rgb(255, 255, 255);
     margin-left: 10px;
     font-weight: 600;
-    font-family: Azeret Mono;
 }
 
 .footer{
@@ -518,7 +527,7 @@ input[type="submit"]{
 
 .footer-container h4{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Inter Tight", sans-serif;
     font-size: 17px;
     font-weight: 600;
     line-height: 23px;
